@@ -42,6 +42,20 @@
         placeholder: 'Search',
         noData: 'No results.'
       },
+      plugins: [
+            function(hook) {
+              console.log('footer')  
+                var footer = [
+                  '<hr/>',
+                  '<footer>',
+                  '<span>Made with &#10084; by <a href="https://seashell.sh/" target="_blank">Seashell</a>.</span>',
+                  '</footer>'
+                ].join('');
+                hook.afterEach(function(html) {
+                  return html + footer;
+                });
+              }
+            ],
       darklightTheme: {
             siteFont : "Roboto",
             defaultTheme : 'dark',
@@ -103,6 +117,7 @@
   <script src="https://unpkg.com/docsify-copy-code"></script>
   <script src="https://unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
   <script src="https://unpkg.com/docsify/lib/plugins/zoom-image.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
     <script 
         src="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/index.min.js"
         type="text/javascript">
