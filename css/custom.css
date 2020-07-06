@@ -68,5 +68,5 @@
 /* ----------------- Edit on Github -----------------*/
 
 .github-corner .octo-body,.octo-arm {
-    fill: var(--background);
+    fill: var(--background) !important;
 }
