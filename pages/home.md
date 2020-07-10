@@ -6,4 +6,13 @@
 <h2>Edge computing made simple</h2>
 </div>
 
-Documentation under construction. Subscribe for early access to the platform on [our website](https://seashell.sh).
+> [!NOTE]
+> Seashell Cloud is now available in private beta. Request access to the platform on [our website](https://seashell.sh).
+
+Seashell Cloud is an infrastructure plataform for modern edge computing deployments that enables users to manage devices, cloud infrastructure, and applications in a unified way.
+
+#### Concepts
+...
+
+#### Use cases
+...
