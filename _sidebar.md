@@ -2,7 +2,7 @@
 
   - [Overview](pages/home.md)
 
-  - [Setup](pages/setup.md)
+  - [Cloud setup](pages/setup.md)
 
-  - [Guides](pages/guides.md)
+  - [Quick start](pages/quick_start.md)
 
