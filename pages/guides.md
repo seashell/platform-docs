@@ -1,29 +1,8 @@
-## Required GCP setup
-
-> [!NOTE]
-> During our private beta, platform deployments are restricted to Google's Cloud Platform. More cloud providers are to follow, as driven by customer demand.
-
-Before getting started with Seashell, it is necessary to have a valid Google Cloud Platform (GCP) project. Below is all the information needed to properly configure this project and setup its service account for use with Seashell.
-
-#### Enable GCP APIs
-- Compute Engine API
-- Cloud SQL Admin API
-
-For further information about managing APIs, refer to the official documentation at:
-https://cloud.google.com/apis/docs/getting-started
-
-#### Create a GCP service account
-...
-
-#### Define GCP service account's roles
-- Service Account User
-- Cloud SQL Client
-
-#### Generate GCP service account's credential keys
-...
-
 ## Creating projects
-...
+
+<div>
+    <img src="assets/screenshots/filler.png" alt="" />
+</div>
 
 ## Deploying platforms
 ...
