@@ -1,4 +1,4 @@
-## Creating projects
+## Creating a project
 
 <div>
     <img src="assets/screenshots/home.png" alt="" />
@@ -9,7 +9,9 @@
 </div>
 
 
-## Deploying platforms
+## Creating a deployment
+
+To create a deployment
 ...
 
 ## Onboarding devices
@@ -60,7 +62,7 @@ Place the downloaded credentials file in the image's root partition under `/etc/
 Boot the device.
 
 > [!TIP]
-> Seashell OS comes with an utility for configuring your device's wifi. Upon boot, if no internet connection is detected, an unprotected network with SSID set to the device's id is brought up, e.g `device-fdhocf2bzici`. Once connected to this network on a mobile phone or computer, the user is redirected to a captive portal where the desired internet connection can be selected and its password set. 
+> Seashell OS comes with an utility for configuring a device's wifi credentials. Upon boot, if no internet connection is detected, an unprotected network with SSID set to the device's id is brought up, e.g `device-fdhocf2bzici`. Once connected to this network on a mobile phone or computer, the user is redirected to a captive portal where the desired internet connection can be selected and its password set. 
 
 
 ## Interacting with a deployment
