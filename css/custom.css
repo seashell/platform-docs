@@ -65,6 +65,27 @@
     stroke: var(--accent);
 }
 
+/* -------------------- Alerts --------------------*/
+
+.alert.callout {
+    border: 1px solid var(--borderColor) !important;
+    border-left-width: .25rem!important;
+
+    background: var(--background)!important;
+    border:3px;
+}
+
+/* -------------------- Code Copy --------------------*/
+.docsify-copy-code-button {
+    background:  var(--highlightColor)!important;
+}
+
+/* -------------------- Article --------------------*/
+
+article {
+    padding-top: 120px!important;
+}
+
 /* ----------------- Edit on Github -----------------*/
 
 .github-corner .octo-body,.octo-arm {
