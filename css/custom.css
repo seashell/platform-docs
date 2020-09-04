@@ -70,7 +70,6 @@
 .alert.callout {
     border: 1px solid var(--borderColor) !important;
     border-left-width: .25rem!important;
-
     background: var(--background)!important;
     border:3px;
 }
@@ -80,9 +79,16 @@
     background:  var(--highlightColor)!important;
 }
 
+/* ------------------ Theme button -------------------*/
+#docsify-darklight-theme {
+    right: 20px!important;
+    top: 72px!important;
+}
+
 /* -------------------- Article --------------------*/
 
 article {
+    max-width: 800px!important;
     padding-top: 120px!important;
 }
 
