@@ -27,6 +27,7 @@
 }
 
 /* ----------------- Sidebar -----------------*/
+
 .sidebar-brand {
     display: flex;
     align-items: center;
@@ -55,14 +56,31 @@
 }
 
 .clear-button {
-    background: none;
-    border: none;
+    background: none!important;
+    border: none!important;
+    outline: none!important;
 }
 
 .clear-button > svg {
-    width: 28px;
-    height: 28px;
+    width: 20px!important;
+    height: 20px!important;
+    transform: scale(0.75)!important;
+}
+
+.clear-button > svg * {
     stroke: var(--accent);
+    fill: var(--background)!important;
+    stroke-width: 1px!important;
+}
+
+.results-panel {
+    padding: 16px!important;
+    padding-top:24px!important;
+}
+
+.search .matching-post {
+    border-color: var(--borderColor)!important;
+    color: var(--textColor)!important;
 }
 
 /* -------------------- Alerts --------------------*/
